@@ -13,7 +13,8 @@
     <link href="assets/images/favicon.png" rel="icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+          rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
@@ -29,14 +30,16 @@
     <link href="assets/css/theme.css" rel="stylesheet">
 
     <!-- Link for date picker -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker3.css" rel="stylesheet" id="bootstrap-css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet"
+          id="bootstrap-css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker3.css"
+          rel="stylesheet" id="bootstrap-css">
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <!-- Link for time picker -->
-    <link href="https://cdn.jsdelivr.net/bootstrap.timepicker/0.2.6/css/bootstrap-timepicker.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/bootstrap.timepicker/0.2.6/css/bootstrap-timepicker.min.css" rel="stylesheet"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
@@ -46,7 +49,7 @@
 
 <body>
 
-<?php include('./shared-components/header.php')?>
+<?php include('./shared-components/header.php') ?>
 
 <!-- ======= Hero Section ======= -->
 <section id="hero2" class="d-flex align-items-center">
@@ -86,7 +89,8 @@
                                     <h4>We're different.</h4>
                                     <p>
                                         A dental clinic dedicated to the highest levels of dentistry and health
-                                        and oral surgery. Smile Dental Clinic offers the best prices for the best services.
+                                        and oral surgery. Smile Dental Clinic offers the best prices for the best
+                                        services.
                                     </p>
                                 </div>
                             </div>
@@ -96,7 +100,8 @@
                                     <h4>We take the time.</h4>
                                     <p>
                                         We aim to understand each patient’s concerns and needs.
-                                        We offer only the very best treatments which are most appropriate for your smile and lifestyle.
+                                        We offer only the very best treatments which are most appropriate for your smile
+                                        and lifestyle.
                                     </p>
                                 </div>
                             </div>
@@ -106,7 +111,8 @@
                                     <h4>After care</h4>
                                     <p>
                                         Smile Dental Clinic offers after care for all the patients of the clinic. All
-                                        their past treatments and services are saved for a better diagnosis in the future.
+                                        their past treatments and services are saved for a better diagnosis in the
+                                        future.
                                     </p>
                                 </div>
                             </div>
@@ -133,8 +139,10 @@
                         <div class="icon"><i class="bi bi-journal-medical"></i></div>
                         <h4 class="title"><a href="">1. Your Consultation </a></h4>
                         <p class="description">
-                            Always there is needed a consulation with the doctor to analyse the problem, the desire of the
-                            client or to see the stage of agravation of the patient situation. In this way the doctor can
+                            Always there is needed a consulation with the doctor to analyse the problem, the desire of
+                            the
+                            client or to see the stage of agravation of the patient situation. In this way the doctor
+                            can
                             clarify the patient about the condition and what can be done.
                         </p>
                     </div>
@@ -143,8 +151,10 @@
                         <div class="icon"><i class="bi bi-file-earmark-medical"></i></div>
                         <h4 class="title"><a href="">2. Your Treatment</a></h4>
                         <p class="description">
-                            Every treatment offered by the clinic is personalied for each patient according to theri personal
-                            condition and problem, ensuring that the patient will get the best treatment and results. Our dental
+                            Every treatment offered by the clinic is personalied for each patient according to theri
+                            personal
+                            condition and problem, ensuring that the patient will get the best treatment and results.
+                            Our dental
                             clinic is equiped with all the necessary facilities to give the best experience.
                         </p>
                     </div>
@@ -153,8 +163,10 @@
                         <div class="icon"><i class="bi bi-emoji-smile"></i></div>
                         <h4 class="title"><a href="">3. Your Aftercare</a></h4>
                         <p class="description">
-                            For having the best experience and results there is aftercare which is an important key in our services.
-                            Our clients will be always in contact will our clinic to assure that everything is going well with the patients.
+                            For having the best experience and results there is aftercare which is an important key in
+                            our services.
+                            Our clients will be always in contact will our clinic to assure that everything is going
+                            well with the patients.
                         </p>
                     </div>
 
@@ -173,7 +185,8 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="count-box">
                         <i class="fas fa-user-md"></i>
-                        <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="2" class="purecounter"></span>
+                        <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="2"
+                              class="purecounter"></span>
                         <p>Doctors</p>
                     </div>
                 </div>
@@ -181,7 +194,8 @@
                 <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
                     <div class="count-box">
                         <i class="bi bi-person-check-fill"></i>
-                        <span data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="1" class="purecounter"></span>
+                        <span data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="1"
+                              class="purecounter"></span>
                         <p>Active Patients</p>
                     </div>
                 </div>
@@ -189,7 +203,8 @@
                 <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
                     <div class="count-box">
                         <i class="fas fa-hospital"></i>
-                        <span data-purecounter-start="0" data-purecounter-end="56" data-purecounter-duration="1" class="purecounter"></span>
+                        <span data-purecounter-start="0" data-purecounter-end="56" data-purecounter-duration="1"
+                              class="purecounter"></span>
                         <p>Sucessful Operations</p>
                     </div>
                 </div>
@@ -197,7 +212,8 @@
                 <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
                     <div class="count-box">
                         <i class="fas fa-award"></i>
-                        <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1" class="purecounter"></span>
+                        <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1"
+                              class="purecounter"></span>
                         <p>Awards</p>
                     </div>
                 </div>
@@ -222,7 +238,7 @@
                         <div class="icon"><i class="fa fa-user-md"></i></div>
                         <h4><a href="">Dental Radiology</a></h4>
                         <p>
-                            Our Clinic is equipped with the technological tool of the moment.                        </p>
+                            Our Clinic is equipped with the technological tool of the moment. </p>
                     </div>
                 </div>
 
@@ -241,7 +257,7 @@
                         <div class="icon"><i class="fas fa-hospital-user"></i></div>
                         <h4><a href="">Orthodontics</a></h4>
                         <p>
-                            Orthodontics can correct the bite and restore the balance of the teeth.                        </p>
+                            Orthodontics can correct the bite and restore the balance of the teeth. </p>
                     </div>
                 </div>
 
@@ -260,7 +276,7 @@
                         <div class="icon"><i class="fas fa-x-ray"></i></div>
                         <h4><a href="">Periodontology</a></h4>
                         <p>
-                            Periodontitis involves the oral hygiene of the teeth.                        </p>
+                            Periodontitis involves the oral hygiene of the teeth. </p>
                     </div>
                 </div>
 
@@ -296,11 +312,13 @@
                         <div class="validate"></div>
                     </div>
                     <div class="col-md-4 form-group mt-3 mt-md-0">
-                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"  required>
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                               required>
                         <div class="validate"></div>
                     </div>
                     <div class="col-md-4 form-group mt-3 mt-md-0">
-                        <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone" required>
+                        <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone"
+                               required>
                         <div class="validate"></div>
                     </div>
                 </div>
@@ -328,10 +346,10 @@
                                     <div class="form-group">
                                         <select id="time" name="time" class="form-control" placeholder="Time">
                                             <?php
-                                                $timeslots = array('9:00:00','10:00:00','11:00:00','12:00:00','13:00:00','14:00:00', '15:00:00','16:00:00', '17:00:00','18:00:00');
-                                                foreach($timeslots as $time) {
-                                                    echo '<option value="'.$time.'">'.$time.'</option>';
-                                                }
+                                            $timeslots = array('9:00:00', '10:00:00', '11:00:00', '12:00:00', '13:00:00', '14:00:00', '15:00:00', '16:00:00', '17:00:00', '18:00:00');
+                                            foreach ($timeslots as $time) {
+                                                echo '<option value="' . $time . '">' . $time . '</option>';
+                                            }
                                             ?>
                                         </select>
                                     </div>
@@ -341,9 +359,10 @@
                         </form>
                     </div>
 
-                    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.min.js"></script>
+                    <script type="text/javascript"
+                            src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.min.js"></script>
 
-                    <script >
+                    <script>
                         $(function () {
                             $('#datepicker').datepicker({
                                 format: "dd/mm/yyyy",
@@ -368,11 +387,16 @@
                 </div>
 
                 <div class="form-group mt-3">
-                    <textarea class="form-control" name="desc" id="desc" rows="5" placeholder="Message (Optional)"></textarea>
+                    <textarea class="form-control" name="desc" id="desc" rows="5"
+                              placeholder="Message (Optional)"></textarea>
                     <div class="validate"></div>
                 </div>
 
-                <div class="text-center"><button type="submit" class="btn btn-primary">Request Appointment</button></div>
+                <div class="text-center">
+                    <button type="submit" class="btn"
+                            style="background-color: #59947a; color: white; border-radius: 18px">Request Appointment
+                    </button>
+                </div>
             </form>
 
         </div>
@@ -501,24 +525,30 @@
                     <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                         <div class="row">
                             <div class="col-md-6 form-group">
-                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                                       required>
                             </div>
                             <div class="col-md-6 form-group mt-3 mt-md-0">
-                                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                                <input type="email" class="form-control" name="email" id="email"
+                                       placeholder="Your Email" required>
                             </div>
                         </div>
                         <div class="form-group mt-3">
-                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
+                                   required>
                         </div>
                         <div class="form-group mt-3">
-                            <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                            <textarea class="form-control" name="message" rows="5" placeholder="Message"
+                                      required></textarea>
                         </div>
                         <div class="my-3">
                             <div class="loading">Loading</div>
                             <div class="error-message"></div>
                             <div class="sent-message">Your message has been sent. Thank you!</div>
                         </div>
-                        <div class="text-center"><button type="submit">Send Message</button></div>
+                        <div class="text-center">
+                            <button type="submit">Send Message</button>
+                        </div>
                     </form>
 
                 </div>
@@ -587,7 +617,7 @@
                 &copy; Copyright <strong><span></span></strong>. All Rights Reserved
             </div>
             <div class="credits">
-                Designed by <a href="https://github.com/aligori/DevsCreed">Mishka 2024</a>
+                Designed by <a href="https://github.com/enisamishka/dentalclinic">Mishka 2024</a>
             </div>
         </div>
         <div class="social-links text-center text-md-right pt-3 pt-md-0">
@@ -601,7 +631,8 @@
 </footer><!-- End Footer -->
 
 <div id="preloader"></div>
-<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
 
 <!-- Vendor JS Files -->
 <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

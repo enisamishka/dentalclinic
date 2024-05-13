@@ -1,12 +1,14 @@
 <?php
 
-class Database {
+class Database
+{
     const HOST = "localhost";
-    const USER ="root";
-    const PASSWORD ="";
-    const DB_NAME ="smile_dental_clinic";
+    const USER = "root";
+    const PASSWORD = "";
+    const DB_NAME = "smile_dental_clinic";
 
-    public static function get_connection() {
+    public static function get_connection()
+    {
         $dsn = 'mysql:host=' . Database::HOST . ';dbname=' . Database::DB_NAME;
 
         try {
