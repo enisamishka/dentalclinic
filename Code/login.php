@@ -22,7 +22,7 @@
     <link href="assets/css/theme.css" rel="stylesheet">
     <title>Log in</title>
 </head>
-<body style="background: url('assets/images/image1.jpg') no-repeat;">
+<body style="background: #538c71;">
 
 <?php include('./shared-components/header.php') ?>
 
@@ -30,18 +30,15 @@
         <form class="border shadow p-3 rounded"
               action="controller/check-login.php"
               method="post"
-              style="width: 35%">
+              style="width: 35%; background: #b6d6c7">
             <h1 class="text-center p-3" style="letter-spacing: 3px; font-weight: bolder">Log in</h1>
-            <h6 style="text-align: center;font-weight: 10; font-size: 13px;letter-spacing: 2px">
-                with the username provided <br> by the clinic to access the system
-            </h6>
                 <hr style="width: 100%; top: 30%; border-color:#5599FF">
             <?php if (isset($_GET['error'])) { ?>
             <div class="alert alert-danger" role="alert"><?=$_GET['error']?></div>
             <?php } ?>
             <div class="mb-3">
                 <label for="username"
-                       class="form-label">Username</label>
+                       class="form-label"">Username</label>
                 <input type="text"
                        class="form-control"
                        name="username"

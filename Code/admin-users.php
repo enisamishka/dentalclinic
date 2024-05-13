@@ -10,7 +10,7 @@ if (isset($_SESSION['user_id']) && $_SESSION['role'] === 'admin') {
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Required Scripts and Stylesheets   -->
-        <?php include('shared-components/includes.php')?>
+        <?php include('shared-components/includes.php') ?>
         <title>Admin Dashboard</title>
     </head>
     <body>
@@ -21,7 +21,8 @@ if (isset($_SESSION['user_id']) && $_SESSION['role'] === 'admin') {
         <!--    Topbar       -->
         <header>
             <div class="navbar navbar-dark">
-                <a href="admin-dashboard.php" class="logo me-auto"><img src="assets/images/logo.png" alt="Clinic Logo" class="img-fluid"></a>
+                <a href="admin-dashboard.php" class="logo me-auto"><img src="assets/images/logo.png" alt="Clinic Logo"
+                                                                        class="img-fluid"></a>
                 <a><?php echo $_SESSION['user']['username'] ?></a>
             </div>
         </header>
@@ -30,21 +31,22 @@ if (isset($_SESSION['user_id']) && $_SESSION['role'] === 'admin') {
             <br/>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="admin-dashboard.php">Home</a></li>
+                    <li class="breadcrumb-item"><a href="admin-dashboard.php"
+                                                   style="color: #39b87d !important;">Home</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Users</li>
                 </ol>
             </nav>
             <br/>
             <div class="card" style="margin-top: auto">
                 <div class="card-header">
-                    <div class = "row">
-                        <div class = "col-sm-9" >USERS </div>
+                    <div class="row">
+                        <div class="col-sm-9">USERS</div>
                     </div>
                 </div>
                 <div class="card-body">
                     <!--  User Table-->
-                    <div class="table-responsive" >
-                        <table id="user_table" class="display table table-primary" >
+                    <div class="w-100">
+                        <table id="user_table" class="display table" style="background: #6ca68b">
                             <thead>
                             <tr>
                                 <th>ID</th>
@@ -63,15 +65,15 @@ if (isset($_SESSION['user_id']) && $_SESSION['role'] === 'admin') {
 
     <script type="text/javascript">
 
-        $(document).ready(function(){
+        $(document).ready(function () {
 
             const dataTable = $('#user_table').DataTable({
-                "bDeferRender":true,
-                "sPaginationType": "full_numbers",
+                "bDeferRender": true,
+                "sPaginationType": "simple",
                 // "serverSide":true,
-                "ajax":{
-                    url:"controller/searchUser.php",
-                    type:"POST"
+                "ajax": {
+                    url: "controller/searchUser.php",
+                    type: "POST"
                 },
                 "columns": [
                     {"data": "user_id"},
@@ -88,7 +90,7 @@ if (isset($_SESSION['user_id']) && $_SESSION['role'] === 'admin') {
     </script>
     </body>
     </html>
-<?php } else{
+<?php } else {
     //Access Forbidden
     header("Location: ./login.php?error=Access Forbidden");
 } ?>
